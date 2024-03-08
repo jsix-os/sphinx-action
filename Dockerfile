@@ -1,6 +1,6 @@
-FROM sphinxdoc/sphinx:2.4.4
+FROM ghcr.io/sphinx-doc/sphinx:7.1.2
 
-LABEL "maintainer"="Ammar Askar <ammar@ammaraskar.com>"
+LABEL "maintainer"="Justin C. Miller <justin@jsix.dev>"
 
 ADD entrypoint.py /entrypoint.py
 ADD sphinx_action /sphinx_action
